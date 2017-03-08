@@ -26,6 +26,9 @@ app.config(function ($routeProvider, $mdThemingProvider) {
       .when('/about', {
         templateUrl: 'views/templates/about.html'
       })
+      .when('/thankyou', {
+        templateUrl: 'views/templates/thankyou.html'
+      })
       .otherwise({
         redirectTo: 'home'
       });

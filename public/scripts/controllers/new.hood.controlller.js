@@ -1,5 +1,5 @@
 angular.module('app')
-  .controller('NewController', ['$http', 'AddHood', function($http, AddHood){
+  .controller('NewController', ['$http', 'AddHood', '$location', function($http, AddHood, $location){
     const self = this;
     self.orderDetails = {};
     self.addHood = function(orderDetails){
@@ -12,9 +12,12 @@ angular.module('app')
       )
       .then(clearObject)
       .catch(handleError)
+
     }
     function clearObject(){
+      console.log("clearObject Function");
       self.orderDetails={};
+      $location.path('/thankyou');
     }
 
     function handleError(err) {

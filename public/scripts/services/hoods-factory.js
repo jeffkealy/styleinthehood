@@ -10,6 +10,7 @@ function hoods($http, $q){
       data: data
     })
     .catch(sendError);
+    console.log("route to DB stopped for now", data);
   }
 
 
