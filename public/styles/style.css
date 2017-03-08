@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "aaaiight-fat";
+    src: url(../assets/aaaiight-fat.TTF) ;
+}
+body{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 72px;
+  font-family: "aaaiight-fat",  sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#image{
+  text-align: center;
+  font-size: 72px;
+  font-family: "aaaiight-fat",  sans-serif;
+}
+.homeButtons, h2 {
+  text-align: center;
+  font-family: "aaaiight-fat",  sans-serif;
+  padding: 10px;
+}

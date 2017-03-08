@@ -20,6 +20,12 @@ app.config(function ($routeProvider, $mdThemingProvider) {
         controller: 'NewController',
         controllerAs: 'new'
       })
+      .when('/patterns', {
+        templateUrl: 'views/templates/patterns.html',
+      })
+      .when('/about', {
+        templateUrl: 'views/templates/about.html'
+      })
       .otherwise({
         redirectTo: 'home'
       });

@@ -18,8 +18,16 @@ var hoodSchema = new Schema({
         type: String,
         required: true
     },
-    date : { type : Date, default: Date.now }
-
+    date : {
+      type : Date, default: Date.now
+    },
+    pattern: {
+      type: String,
+    },
+    complete: {
+      type: Boolean,
+      deafult: false
+    }
     // link: {
     //     type: String
     // },
