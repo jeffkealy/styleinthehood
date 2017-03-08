@@ -1,6 +1,6 @@
 @font-face {
     font-family: "aaaiight-fat";
-    src: url(../assets/aaaiight-fat.TTF) ;
+    src: url(../../assets/aaaiight-fat.TTF) ;
 }
 
 h1{
@@ -14,8 +14,6 @@ a {
 }
 #image{
   text-align: center;
-  font-size: 72px;
-  font-family: "aaaiight-fat",  sans-serif;
 }
 .homeButtons, h2 {
   text-align: center;
