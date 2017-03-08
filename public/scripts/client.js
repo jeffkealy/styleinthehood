@@ -15,6 +15,11 @@ app.config(function ($routeProvider, $mdThemingProvider) {
         controller: 'HomeController',
         controllerAs: 'home'
       })
+      .when('/newhood', {
+        templateUrl: 'views/templates/newhood.html',
+        controller: 'NewController',
+        controllerAs: 'new'
+      })
       .otherwise({
         redirectTo: 'home'
       });

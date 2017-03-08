@@ -5,6 +5,7 @@ const connectionString = require('../config/database-config');
 var databaseURI = '';
 if(process.env.DATABASE_URI !== undefined) {
     // use the string value of the environment variable
+    console.log("database", process.env.DATABASE_URI);
     databaseURI = process.env.DATABASE_URI;
 } else {
     // use the local database server
