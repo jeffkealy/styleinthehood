@@ -15,7 +15,7 @@ angular.module('app')
 
     }
     function clearObject(){
-      console.log("clearObject Function");
+      console.log("order placed");
       self.orderDetails={};
       $location.path('/thankyou');
     }
