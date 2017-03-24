@@ -4,11 +4,14 @@
 }
 body{
   font-family: "aaaiight-fat",  sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 h1{
   text-align: center;
   font-size: 72px;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 a {
   color: inherit;
@@ -16,12 +19,24 @@ a {
 }
 p {
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-#image{
+
+#titleDiv{
   text-align: center;
+}
+
+#image{
+  width: 300px;
 }
 .homeButtons, h2 {
   text-align: center;
-  font-family: "aaaiight-fat",  sans-serif;
   padding: 10px;
+  margin: 0;
+}
+.image{
+  border-radius: 10px;
+  width:320px;
+  height:425px;
 }
